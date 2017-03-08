@@ -1,6 +1,6 @@
 {
   "name": "generator-jibenziliao-react",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "基于react+webpack2的项目脚手架",
   "main": "index.js",
   "scripts": {

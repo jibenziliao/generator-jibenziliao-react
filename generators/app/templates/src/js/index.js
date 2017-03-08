@@ -13,12 +13,12 @@ require.ensure(['splash-screen/dist/splash.min.css', 'splash-screen'], function(
 });
 
 require.ensure([
-  'less/main.less',
+  '../less/main.less',
   'splash-screen',
   './utils/Entrance'
 ], function(require) {
 
-  require('less/main.less');
+  require('../less/main.less');
 
   var Entrance = require('./utils/Entrance').default;
   (new Entrance()).run();
