@@ -16,7 +16,7 @@ class Application extends Component {
   render() {
     return (
       <h1>
-        这是一个空项目，你可以在app目录下添加项目代码。
+        这是一个空项目，你可以在{projectroot}/src/js/app目录下添加项目代码。
       </h1>
     );
   }
