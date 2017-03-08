@@ -69,4 +69,4 @@ dist/
 
 .gitignore
 !/.gitignore
-.idea
+.idea/
