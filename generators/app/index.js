@@ -98,7 +98,7 @@ class gen extends Generator {
   writing() {
     const _ = require('lodash');
 
-    this.fs.copyTpl(this.templatePath('js'), this.destinationPath('js'), this.obj, {
+    this.fs.copyTpl(this.templatePath('src/js'), this.destinationPath('src/js'), this.obj, {
       interpolate: /<%=([\s\S]+?)%>/g
     });
     this.fs.copy(this.templatePath('src/less', '*'), this.destinationPath('src/less'));
