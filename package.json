@@ -1,0 +1,16 @@
+{
+  "name": "generator-jibenziliao-react",
+  "version": "0.0.1",
+  "description": "基于react+webpack2的项目脚手架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "webpack2",
+    "yeoman"
+  ],
+  "author": "jibenziliao",
+  "license": "MIT"
+}
