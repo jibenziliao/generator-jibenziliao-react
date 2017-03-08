@@ -6,20 +6,26 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository":{
+  "repository": {
     "type": "git",
     "url": "https://github.com/jibenziliao/generator-jibenziliao-react.git"
   },
+  "files": ["generators"],
   "keywords": [
     "react",
-    "webpack2",
+    "webpack",
     "yeoman",
     "yeoman-generator"
   ],
   "author": "jibenziliao",
   "license": "MIT",
-  "bugs":{
+  "bugs": {
     "url": "https://github.com/jibenziliao/generator-jibenziliao-react/issues"
   },
-  "homepage": "https://github.com/jibenziliao/generator-jibenziliao-react"
+  "homepage": "https://github.com/jibenziliao/generator-jibenziliao-react",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "yeoman-generator": "^1.1.1",
+    "date-util": "^1.2.1"
+  }
 }
