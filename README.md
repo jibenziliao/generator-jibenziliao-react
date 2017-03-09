@@ -2,47 +2,60 @@
 
 ## react+webpack2脚手架
 
-## Prerequisites ##
+[TOC]
 
-1. Install [yeoman](http://yeoman.io/): `npm install -g yo`
-2. Install __this__: `npm install -g generator-jibenziliao-react`
+## 安装 ##
 
-> prepend with `sudo` if you are running on `*nix` OS.
 ```bash
+npm install -g yo
+
+npm install -g generator-jibenziliao-react
+
 yo jibenziliao-react
 ```
 
-## Debug your app ##
+## 调试 ##
 
-The full featured `dev/dist` tools are provided, it's easy to start debugging your app.
+提供功能完善的`dev/dist`调试工具。
 
-Just move into the created directory with the given `project name`.
+进入项目根目录，执行start命令，开启调试服务器。
 
-Run `npm start` to start a debug web server for the project.
+```bash
+npm start
+```
 
-Open [http://localhost:8080/](http://localhost:8080/) to see the playable skeleton, and have fun.
+打开[http://localhost:8080/](http://localhost:8080/)查看网页。
 
-## Release your app ##
+## 发布生产 ##
 
-> Release means, generate output bundles by using `webpack`. It's good using the released resources as your production code.
+> 使用webpack2打包生产环境代码。
 
-Move the root of the created project.
+进入项目根目录。
 
-Run `npm run dist` to compile all the source code into webpack bundles. And all required resources are generated into `{root}/build/`.
+执行`npm run dist`使用webpack2打包编译所有的代码。所有所需资源都会生成到目录`{root}/build/`中.
 
-You can copy the `build` folder to anywhere you like, it's the released app.
+你可以拷贝`build`目录中的文件在其他地方运行，这里面的文件就是生产环境的代码。
 
-### Like have a try with the released app? ###
+### 查看生产代码 ###
 
-Install [sero-cli](https://github.com/leftstick/Sero-cli): `npm install -g sero-cli`
+安装[sero-cli](https://github.com/leftstick/Sero-cli)：
+```bash
+npm install -g sero-cli
 
-Move into `{root}/build/`
+```
 
-Run `sero server -p 8080 -h`, a static web server launched at port 8080.
+进入项目根目录，执行下面的代码
+```bash
+sero server -p 8080 -h
+```
 
-Open [http://localhost:8080](http://localhost:8080) to watch the released version
+打开[http://localhost:8080](http://localhost:8080)查看生产代码效果。
 
-## References ##
+### 计划 ###
+ * [x]搭建基础webpack环境
+ * [ ]集成一个模板项目
+
+## 参考 ##
 
 1. [yeoman](http://yeoman.io/)
 2. [webpack](https://webpack.js.org/)
