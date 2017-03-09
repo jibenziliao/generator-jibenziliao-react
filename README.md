@@ -1,8 +1,8 @@
+[TOC]
+
 # generator-jibenziliao-react
 
 ## react+webpack2脚手架
-
-[TOC]
 
 ## 安装 ##
 
@@ -52,8 +52,9 @@ sero server -p 8080 -h
 打开[http://localhost:8080](http://localhost:8080)查看生产代码效果。
 
 ### 计划 ###
- * [x]搭建基础webpack环境
- * [ ]集成一个模板项目
+ - [×]搭建基础webpack环境
+ - []集成一个模板项目
+ - []包含路由功能(react-router)
 
 ## 参考 ##
 
