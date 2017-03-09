@@ -1,8 +1,8 @@
-[TOC]
-
 # generator-jibenziliao-react
 
 ## react+webpack2脚手架
+
+ 点此查看详情[generator-jibenziliao-react](https://jibenziliao.github.io/generator-jibenziliao-react/)
 
 ## 安装 ##
 
@@ -41,7 +41,6 @@ npm start
 安装[sero-cli](https://github.com/leftstick/Sero-cli)：
 ```bash
 npm install -g sero-cli
-
 ```
 
 进入项目根目录，执行下面的代码
