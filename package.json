@@ -1,12 +1,11 @@
 {
   "name": "generator-jibenziliao-react",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "基于react+webpack2的项目脚手架",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jibenziliao/generator-jibenziliao-react.git"
   },
-  "files": ["generators"],
   "keywords": [
     "yeoman-generator",
     "react",
@@ -18,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/jibenziliao/generator-jibenziliao-react/issues"
   },
-  "homepage": "https://github.com/jibenziliao/generator-jibenziliao-react",
+  "homepage": "https://jibenziliao.github.io/generator-jibenziliao-react/",
   "dependencies": {
     "lodash": "^4.17.4",
     "yeoman-generator": "^1.1.1",
