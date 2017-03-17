@@ -51,9 +51,9 @@ sero server -p 8080 -h
 打开[http://localhost:8080](http://localhost:8080)查看生产代码效果。
 
 ### 计划 ###
- - [×]搭建基础webpack环境
- - []集成一个模板项目
- - []包含路由功能(react-router)
+- [×] 搭建基础webpack环境
+- [ ] 集成一个模板项目
+- [ ] 包含路由功能(react-router)
 
 ## 参考 ##
 
