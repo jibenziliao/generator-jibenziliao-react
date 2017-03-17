@@ -1,6 +1,6 @@
 {
   "name": "generator-jibenziliao-react",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "基于react+webpack2的项目脚手架",
   "repository": {
     "type": "git",
